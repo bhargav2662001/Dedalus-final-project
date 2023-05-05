@@ -20,7 +20,9 @@
       <mat-icon>shopping_cart</mat-icon>
     </button>
   </mat-toolbar>
-<div *ngFor = "let x of iphone" class="iphone">
+
+<div *ngFor = "let x of iphone" class="pad">
+    <a routerLink="/iphone-content/{{x.id}}">
     <mat-card class="example-card">
         
     <div class="img">

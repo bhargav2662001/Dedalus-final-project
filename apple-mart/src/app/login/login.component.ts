@@ -26,6 +26,7 @@ export class LoginComponent implements OnInit {
  // Common variables
  
    logform:boolean=true;
+  authService: any;
   constructor(private log:LogService,private route:Router) { }
 
   ngOnInit(): void {
@@ -109,10 +110,17 @@ export class LoginComponent implements OnInit {
                          alert("There is problem , Please try again or later")
                          this.rstatus=false;
                      }}
-                  )
+                  );logout();{
+                    this.authService.clearToken(); // clear the user's token or session data
+                    this.route.navigate(['/login']); // redirect to login page
+                  }
               }
           
      }
  
 
+}
+
+function logout() {
+  throw new Error('Function not implemented.');
 }

@@ -71,20 +71,39 @@ export class LogService {
      sessionStorage.removeItem("email");
   }
   getmac():Observable<any> {
-    return this.http.get("http://localhost:4500/mac-products");}
+    return this.http.get("http://localhost:4500/mac-products");
+  }
+  getmacbyID(id:any):Observable<any> {
+    return this.http.get("http://localhost:4500/mac-products/"+id);
+  }
     getiphone():Observable<any> {
     return this.http.get("http://localhost:4500/iPhone-products");
  }
+ getiphonebyID(id:any):Observable<any> {
+  return this.http.get("http://localhost:4500/iPhone-products/"+id);
+}
  getipad():Observable<any> {
   return this.http.get("http://localhost:4500/iPad-products");
+}
+getipadbyID(id:any):Observable<any> {
+  return this.http.get("http://localhost:4500/iPad-products/"+id);
 }
 getiwatch():Observable<any> {
   return this.http.get("http://localhost:4500/iWatch-products");
 }
+getiwatchbyID(id:any):Observable<any> {
+  return this.http.get("http://localhost:4500/iWatch-products/"+id);
+}
 getitv():Observable<any> {
   return this.http.get("http://localhost:4500/iTv-products");
 }
+getitvbyID(id:any):Observable<any> {
+  return this.http.get("http://localhost:4500/iTv-products/"+id);
+}
 getmusic():Observable<any> {
   return this.http.get("http://localhost:4500/iMusic-products");
+}
+getmusicbyID(id:any):Observable<any> {
+  return this.http.get("http://localhost:4500/iMusic-products/"+id);
 }
 }

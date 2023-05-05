@@ -11,12 +11,12 @@ import { MaterialModule } from './material/material.module';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MacComponent } from './user/mac/mac.component';
-import { WatchComponent } from './user/watch/watch.component';
-import { TvComponent } from './user/tv/tv.component';
-import { MusicComponent } from './user/music/music.component';
-import { SupportComponent } from './user/support/support.component';
-import { IpadComponent } from './user/ipad/ipad.component';
 import { IPhoneComponent } from './user/iphone/iphone.component';
+import { IpadComponent } from './user/ipad/ipad.component';
+import { WatchComponent } from './user/watch/watch.component';
+import { MusicComponent } from './user/music/music.component';
+import { TvComponent } from './user/tv/tv.component';
+import { SupportComponent } from './user/support/support.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +24,12 @@ import { IPhoneComponent } from './user/iphone/iphone.component';
     LoginComponent,
     HomeComponent,
     MacComponent,
-    WatchComponent,
-    TvComponent,
-    MusicComponent,
-    SupportComponent,
+    IPhoneComponent,
     IpadComponent,
-    IPhoneComponent
+    WatchComponent,
+    MusicComponent,
+    TvComponent,
+    SupportComponent,
 
   ],
   imports: [

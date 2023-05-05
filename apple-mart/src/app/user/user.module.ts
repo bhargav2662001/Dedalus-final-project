@@ -3,14 +3,16 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
-import { MacComponent } from './mac/mac.component';
+import { ProductsComponent } from './products/products.component';
+import { ProductBoxComponent } from './products/product-box/product-box.component';
+import { DetailsComponent } from './products/details/details.component';
 import { MaterialModule } from '../material/material.module';
-import { IpadComponent,} from './ipad/ipad.component';
-import { IPhoneComponent } from './iphone/iphone.component';
-import { WatchComponent } from './watch/watch.component';
-import { TvComponent } from './tv/tv.component';
-import { MusicComponent } from './music/music.component';
-import { SupportComponent } from './support/support.component';
+import { IpadContentComponent } from './ipad/ipad-content/ipad-content.component';
+import { IphoneContentComponent } from './iphone/iphone-content/iphone-content.component';
+import { MacContentComponent } from './mac/mac-content/mac-content.component';
+import { MusicContentComponent } from './music/music-content/music-content.component';
+import { WatchContentComponent } from './watch/watch-content/watch-content.component';
+import { TvContentComponent } from './tv/tv-content/tv-content.component';
 const route:Routes=[
   {
   path:"home",
@@ -32,6 +34,16 @@ const route:Routes=[
 @NgModule({
   declarations: [
    
+           ProductsComponent,
+           ProductBoxComponent,
+           DetailsComponent,
+           IpadContentComponent,
+           IphoneContentComponent,
+           MacContentComponent,
+           MusicContentComponent,
+           WatchContentComponent,
+           TvContentComponent
+         
   ],
   imports: [
     CommonModule,

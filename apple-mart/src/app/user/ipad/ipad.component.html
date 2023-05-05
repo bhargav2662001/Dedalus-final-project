@@ -21,6 +21,7 @@
     </button>
   </mat-toolbar>
 <div *ngFor = "let x of iPad" class="pad">
+    <a routerLink="/ipad-content/{{x.id}}">
     <mat-card class="example-card">
         
     <div class="img">
@@ -38,3 +39,4 @@
     </mat-card-actions>
     </div>
     </mat-card> 
+</a>

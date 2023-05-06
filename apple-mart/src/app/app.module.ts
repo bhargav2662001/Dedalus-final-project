@@ -18,6 +18,7 @@ import { MusicComponent } from './user/music/music.component';
 import { TvComponent } from './user/tv/tv.component';
 import { SupportComponent } from './user/support/support.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,7 @@ import { SupportComponent } from './user/support/support.component';
     WatchComponent,
     MusicComponent,
     TvComponent,
-    SupportComponent,
+    SupportComponent
 
   ],
   imports: [

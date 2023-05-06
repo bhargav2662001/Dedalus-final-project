@@ -21,22 +21,26 @@
     </button>
   </mat-toolbar>
 
-<div *ngFor = "let x of iphone" class="pad">
-    <a routerLink="/iphone-content/{{x.id}}">
-    <mat-card class="example-card">
-        
-    <div class="img">
-        
-    <img mat-card-lg-image class="yy" src="http://localhost/{{x.image}}">
-    <mat-card-title>price:{{x.price}}</mat-card-title>
-    <mat-card-title>{{x.name}}</mat-card-title>
-    <mat-card-actions>
-        <div class="ex">
-        <button mat-raised-button color="accent">Details</button>
-        </div>
-        <div class="zz">
-        <button mat-raised-button color="primary">Add to Cart</button>
-        </div>
-    </mat-card-actions>
-    </div>
-    </mat-card>  
+  <div class="col-lg-12 pad">
+    <ng-container *ngFor="let x of iphone">
+        <a routerLink="/iphone-content/{{x.id}}">
+            <mat-card class="example-card">
+    
+                <div class="img">
+    
+                    <img mat-card-lg-image class="yy" src="http://localhost/{{x.image}}">
+                    <mat-card-title>price:{{x.price}}</mat-card-title>
+                    <mat-card-title>{{x.name}}</mat-card-title>
+                    <mat-card-actions>
+                        <div class="ex">
+                            <button mat-raised-button color="accent">Details</button>
+                        </div>
+                        <div class="zz">
+                            <button mat-raised-button color="primary" Click="AddtoCart()">Add to Cart</button>
+                        </div>
+                    </mat-card-actions>
+                </div>
+            </mat-card>
+        </a>
+    </ng-container>
+  </div>

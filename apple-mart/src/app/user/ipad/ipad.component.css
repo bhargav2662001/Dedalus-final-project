@@ -1,17 +1,12 @@
-
-
 .yy{
-    height: 200px;
-    width: 200px;
-    text-align: center;
-
-    
+    height: 300px;
+    width: 300px;
 }
 .example-card{
     width: 400px;
     justify-content: space-between;
     float: left;
-    padding: 8px;
+    padding: 10px;
     display: flex;
     /* width: 200px; */
     margin: .5rem;
@@ -26,7 +21,6 @@
     justify-items: space-between;
     width:100%;
     margin-left: 40px;
-    
 }
 .ple {
     flex: 1 1 auto;

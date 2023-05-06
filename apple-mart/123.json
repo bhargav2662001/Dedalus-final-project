@@ -101,6 +101,13 @@
       "username": "bhargav",
       "type": "user",
       "id": 16
+    },
+    {
+      "email": "bhargav123@gmail.com",
+      "password": "$2a$10$nhGQKb74k6RZR/Xs3xH4reJOmfYkwjb6pWpHnK.pbYSzMvwiVFuDq",
+      "username": "bhargav8004",
+      "type": "admin",
+      "id": 17
     }
   ],
   "mac-products": [
@@ -190,43 +197,37 @@
       "id": "13",
       "name": "iPad",
       "image": "iPad1.jpg",
-      "price": "$999",
-      "discription":"welcome"
+      "price": "$999"
     },
     {
       "id": "14",
       "name": "iPad-pro",
       "image": "iPad2.jpg",
-      "price": "$899",
-      "discription":"welcome"
+      "price": "$899"
     },
     {
       "id": "15",
       "name": "iPad-promax",
       "image": "iPad3.jpg",
-      "price": "$799",
-      "discription":"welcome"
+      "price": "$799"
     },
     {
       "id": "16",
       "name": "iPad-2020",
       "image": "iPad4.jpg",
-      "price": "$799",
-      "discription":"welcome"
+      "price": "$799"
     },
     {
       "id": "17",
       "name": "iPad-2021",
       "image": "iPad5.jpg",
-      "price": "$899",
-      "discription":"welcome"
+      "price": "$899"
     },
     {
       "id": "18",
       "name": "iPad-2022",
       "image": "iPad6.jpg",
-      "price": "$999",
-      "discription":"welcome"
+      "price": "$999"
     }
   ],
   "iTv-products": [

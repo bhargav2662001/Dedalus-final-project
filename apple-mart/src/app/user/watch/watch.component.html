@@ -20,7 +20,8 @@
       <mat-icon>shopping_cart</mat-icon>
     </button>
   </mat-toolbar>
-  <div *ngFor = "let x of Watch" class="pad">
+  <div class="col-lg-12 pad2">
+    <ng-container *ngFor="let x of Watch">
     <a routerLink="/watch-content/{{x.id}}">
     <mat-card class="example-card">
         

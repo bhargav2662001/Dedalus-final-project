@@ -20,7 +20,8 @@
       <mat-icon>shopping_cart</mat-icon>
     </button>
   </mat-toolbar>
-  <div *ngFor = "let x of Music" class="pad">
+  <div class="col-lg-12 pad2">
+    <ng-container *ngFor="let x of Music">
     <a routerLink="/music-content/{{x.id}}">
     <mat-card class="example-card">
         

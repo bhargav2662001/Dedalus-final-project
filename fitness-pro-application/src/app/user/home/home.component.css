@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+img {
+  width: 17px;
+  height: 17px;
+  padding-right: 3px;
+  cursor: pointer;
+  /* border: 1px solid greenyellow; */
+}
+.class {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  margin: 0 0.5rem;
+}
+.ayruvadic-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

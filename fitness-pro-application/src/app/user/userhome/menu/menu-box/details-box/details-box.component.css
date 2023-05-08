@@ -1,0 +1,29 @@
+.details {
+  
+  border: 9px solid black;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+img {
+  border: 5px solid rgb(221, 210, 210);
+  padding: 20px;
+  margin-left: 400px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.para {
+  height: 500px;
+  width: 500px;
+  padding: 40px;
+  justify-content: center;
+  margin-left: 400px;
+}

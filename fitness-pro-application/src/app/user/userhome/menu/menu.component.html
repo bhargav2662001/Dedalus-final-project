@@ -1,0 +1,26 @@
+<mat-toolbar>
+  <select [(ngModel)]="selected" class="bx">
+    <option *ngFor="let x of types">{{ x }}</option>
+  </select>
+
+  <label class="search">
+    <input
+      class="searchbox"
+      type="text"
+      name="Search"
+      [(ngModel)]="searchText"
+      placeholder="Search Here!"
+    />
+    <button class="button">search</button></label
+  >
+  <!-- <a routerLink="/dietplan" class="diets">Diets</a> -->
+</mat-toolbar>
+
+<div class="container1">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let x of names | filtertype : selected ">
+     <app-menu-box  [pd]="x"></app-menu-box>
+    </div>
+  </div>
+  
+</div>
